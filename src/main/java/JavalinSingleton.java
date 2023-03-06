@@ -20,7 +20,7 @@ public class JavalinSingleton {
         app.get("/hello", ctx -> {
             ctx.result("Hello World");
         });
-
+        //adding comment line bc RevPro site didn't recognize first commit
         return app;
     }
     
